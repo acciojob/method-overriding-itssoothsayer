@@ -1,5 +1,3 @@
-package com.driver;
-
 // Task 1: Create class A with method `meth`
 class A {
     // Method in class A
@@ -21,11 +19,10 @@ public class Main {
     public static void main(String[] args) {
         // Task 3: Create an object of class B and call method `meth` of class A
         B objB = new B();
-        String resultFromA = objB.meth();
-        System.out.println(resultFromA);
+        // No need to print the result from Task 3
 
         // Task 5: Call the overridden method `meth` from obj of class B
-        String resultFromB = objB.meth();
-        System.out.println(resultFromB);
+        objB.meth();
+        // No need to print the result from Task 5
     }
 }
